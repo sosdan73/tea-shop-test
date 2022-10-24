@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #e0c521;
+}
+
+.btn {
+    padding: 0.6rem 0.8rem;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn.add {
+    background-color: #33aa33;
+    color: #fff;
+}
+
+.btn.remove {
+    background-color: #ff5445;
+    color: #fff;
+}
+
+.btn.checkout {
+    background-color: var(--tg-theme-button-color);
+    color: var(--tg-theme-button-text-color);
+    width: 150px;
+    font-size: 14px;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
